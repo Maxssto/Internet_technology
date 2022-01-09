@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(13, 140, 190);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.input-data {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+table {
+  background-color: #282828;
+  color: whitesmoke;
+  margin: 0 auto;
+}
+tbody > tr:nth-child(n + 2) {
+  background-color: rgb(207, 160, 5);
+  color: white;
+}
+tbody > tr:nth-child(even) {
+  background-color: rgb(184, 4, 4);
+  color: white;
+}
+tbody > tr:first-child > td {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
